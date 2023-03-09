@@ -69,7 +69,7 @@ function logsubmit(event){
 	request.open("GET", url);
 	request.send();
 	
-	console.log("Message sent");
+	alert("Hi, Cedrick here! Got your message and I'll be in touch shortly");
 };
 
 window.onload = function() {
