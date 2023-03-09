@@ -68,8 +68,9 @@ function logsubmit(event){
 	let request = new XMLHttpRequest();
 	request.open("GET", url);
 	request.send();
+	alert("Hi, Cedrick here! Thank you for your message, I'll be in touch shortly");
 	
-	alert("Hi, Cedrick here! Got your message and I'll be in touch shortly");
+	
 };
 
 window.onload = function() {
